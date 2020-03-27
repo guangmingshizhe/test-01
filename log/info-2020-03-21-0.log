@@ -1,0 +1,513 @@
+2020-03-21 16:54:04.070 [restartedMain] INFO  com.study.StudydemoApplication - Starting StudydemoApplication on DESKTOP-4QN18K6 with PID 10080 (E:\UserProject\studydemo\target\classes started by 12073 in E:\UserProject\studydemo)
+2020-03-21 16:54:04.073 [restartedMain] INFO  com.study.StudydemoApplication - No active profile set, falling back to default profiles: default
+2020-03-21 16:54:04.133 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5423c9af: startup date [Sat Mar 21 16:54:04 CST 2020]; root of context hierarchy
+2020-03-21 16:54:04.147 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2020-03-21 16:54:05.340 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.study.mapper.administration]' package. Please check your configuration.
+2020-03-21 16:54:05.341 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.study.mapper.business]' package. Please check your configuration.
+2020-03-21 16:54:05.506 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.study]' package. Please check your configuration.
+2020-03-21 16:54:05.929 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8cddc9e9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-21 16:54:06.877 [restartedMain] INFO  org.xnio - XNIO version 3.3.8.Final
+2020-03-21 16:54:06.890 [restartedMain] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2020-03-21 16:54:07.229 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2020-03-21 16:54:07.229 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-03-21 16:54:07.247 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2020-03-21 16:54:07.247 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3114 ms
+2020-03-21 16:54:07.341 [restartedMain] INFO  o.s.b.w.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2020-03-21 16:54:07.347 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-21 16:54:07.348 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-21 16:54:07.348 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-21 16:54:07.348 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-21 16:54:07.733 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test/hello],methods=[GET]}" onto private java.lang.String com.study.controller.TestController.hello()
+2020-03-21 16:54:07.735 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2020-03-21 16:54:07.738 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-03-21 16:54:07.738 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-03-21 16:54:07.739 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-03-21 16:54:07.741 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-03-21 16:54:07.742 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-03-21 16:54:07.890 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - ZTWEB_HIKARI - Starting...
+2020-03-21 16:54:08.030 [restartedMain] INFO  com.zaxxer.hikari.pool.PoolBase - ZTWEB_HIKARI - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2020-03-21 16:54:08.065 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - ZTWEB_HIKARI - Start completed.
+2020-03-21 16:54:08.104 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - LCYW_HIKARI - Starting...
+2020-03-21 16:54:08.142 [restartedMain] INFO  com.zaxxer.hikari.pool.PoolBase - LCYW_HIKARI - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2020-03-21 16:54:08.144 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - LCYW_HIKARI - Start completed.
+2020-03-21 16:54:08.450 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5423c9af: startup date [Sat Mar 21 16:54:04 CST 2020]; root of context hierarchy
+2020-03-21 16:54:08.506 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-21 16:54:08.507 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-21 16:54:08.540 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-21 16:54:08.782 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-21 16:54:08.828 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2020-03-21 16:54:08.829 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'secondaryDataSource' has been autodetected for JMX exposure
+2020-03-21 16:54:08.829 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'primaryDataSource' has been autodetected for JMX exposure
+2020-03-21 16:54:08.834 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'primaryDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=primaryDataSource,type=HikariDataSource]
+2020-03-21 16:54:08.835 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'secondaryDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=secondaryDataSource,type=HikariDataSource]
+2020-03-21 16:54:08.837 [restartedMain] INFO  o.s.c.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2020-03-21 16:54:08.837 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-21 16:54:08.851 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-21 16:54:08.864 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-21 16:54:09.522 [restartedMain] INFO  o.s.b.c.e.u.UndertowEmbeddedServletContainer - Undertow started on port(s) 9999 (http)
+2020-03-21 16:54:09.527 [restartedMain] INFO  com.study.StudydemoApplication - Started StudydemoApplication in 5.819 seconds (JVM running for 6.798)
+2020-03-21 16:55:18.171 [restartedMain] INFO  com.study.StudydemoApplication - Starting StudydemoApplication on DESKTOP-4QN18K6 with PID 28680 (E:\UserProject\studydemo\target\classes started by 12073 in E:\UserProject\studydemo)
+2020-03-21 16:55:18.193 [restartedMain] INFO  com.study.StudydemoApplication - No active profile set, falling back to default profiles: default
+2020-03-21 16:55:18.466 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2020-03-21 16:55:18.488 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3e0d1ff2: startup date [Sat Mar 21 16:55:18 CST 2020]; root of context hierarchy
+2020-03-21 16:55:22.126 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.study.mapper.administration]' package. Please check your configuration.
+2020-03-21 16:55:22.128 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.study.mapper.business]' package. Please check your configuration.
+2020-03-21 16:55:22.319 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.study]' package. Please check your configuration.
+2020-03-21 16:55:22.866 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4c92d3ac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-21 16:55:23.936 [restartedMain] INFO  org.xnio - XNIO version 3.3.8.Final
+2020-03-21 16:55:23.956 [restartedMain] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2020-03-21 16:55:24.598 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2020-03-21 16:55:24.598 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-03-21 16:55:24.632 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2020-03-21 16:55:24.632 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6144 ms
+2020-03-21 16:55:24.785 [restartedMain] INFO  o.s.b.w.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2020-03-21 16:55:24.790 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-21 16:55:24.791 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-21 16:55:24.791 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-21 16:55:24.791 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-21 16:55:25.459 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test/hello],methods=[GET]}" onto private java.lang.String com.study.controller.TestController.hello()
+2020-03-21 16:55:25.463 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2020-03-21 16:55:25.466 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-03-21 16:55:25.468 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-03-21 16:55:25.469 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-03-21 16:55:25.472 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-03-21 16:55:25.473 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-03-21 16:55:25.747 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - ZTWEB_HIKARI - Starting...
+2020-03-21 16:55:25.943 [restartedMain] INFO  com.zaxxer.hikari.pool.PoolBase - ZTWEB_HIKARI - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2020-03-21 16:55:25.998 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - ZTWEB_HIKARI - Start completed.
+2020-03-21 16:55:26.063 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - LCYW_HIKARI - Starting...
+2020-03-21 16:55:26.110 [restartedMain] INFO  com.zaxxer.hikari.pool.PoolBase - LCYW_HIKARI - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2020-03-21 16:55:26.114 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - LCYW_HIKARI - Start completed.
+2020-03-21 16:55:26.615 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3e0d1ff2: startup date [Sat Mar 21 16:55:18 CST 2020]; root of context hierarchy
+2020-03-21 16:55:26.692 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-21 16:55:26.693 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-21 16:55:26.744 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-21 16:55:27.090 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-21 16:55:27.253 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2020-03-21 16:55:27.254 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'secondaryDataSource' has been autodetected for JMX exposure
+2020-03-21 16:55:27.254 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'primaryDataSource' has been autodetected for JMX exposure
+2020-03-21 16:55:27.261 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'primaryDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=primaryDataSource,type=HikariDataSource]
+2020-03-21 16:55:27.262 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'secondaryDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=secondaryDataSource,type=HikariDataSource]
+2020-03-21 16:55:27.265 [restartedMain] INFO  o.s.c.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2020-03-21 16:55:27.265 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-21 16:55:27.283 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-21 16:55:27.299 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-21 16:55:28.060 [restartedMain] INFO  o.s.b.c.e.u.UndertowEmbeddedServletContainer - Undertow started on port(s) 9999 (http)
+2020-03-21 16:55:28.065 [restartedMain] INFO  com.study.StudydemoApplication - Started StudydemoApplication in 10.679 seconds (JVM running for 12.438)
+2020-03-21 16:56:20.946 [restartedMain] INFO  com.study.StudydemoApplication - Starting StudydemoApplication on DESKTOP-4QN18K6 with PID 9260 (E:\UserProject\studydemo\target\classes started by 12073 in E:\UserProject\studydemo)
+2020-03-21 16:56:20.963 [restartedMain] INFO  com.study.StudydemoApplication - No active profile set, falling back to default profiles: default
+2020-03-21 16:56:21.158 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@251d399f: startup date [Sat Mar 21 16:56:21 CST 2020]; root of context hierarchy
+2020-03-21 16:56:21.187 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2020-03-21 16:56:23.536 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.study.mapper.administration]' package. Please check your configuration.
+2020-03-21 16:56:23.537 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.study.mapper.business]' package. Please check your configuration.
+2020-03-21 16:56:23.723 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.study]' package. Please check your configuration.
+2020-03-21 16:56:24.257 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b501cb85] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-21 16:56:25.246 [restartedMain] INFO  org.xnio - XNIO version 3.3.8.Final
+2020-03-21 16:56:25.266 [restartedMain] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2020-03-21 16:56:25.839 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2020-03-21 16:56:25.839 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-03-21 16:56:25.868 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2020-03-21 16:56:25.868 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4710 ms
+2020-03-21 16:56:26.014 [restartedMain] INFO  o.s.b.w.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2020-03-21 16:56:26.020 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-21 16:56:26.021 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-21 16:56:26.021 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-21 16:56:26.021 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-21 16:56:26.618 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test/hello],methods=[GET]}" onto private java.lang.String com.study.controller.TestController.hello()
+2020-03-21 16:56:26.621 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2020-03-21 16:56:26.625 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-03-21 16:56:26.626 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-03-21 16:56:26.627 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-03-21 16:56:26.630 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-03-21 16:56:26.630 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-03-21 16:56:26.832 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - ZTWEB_HIKARI - Starting...
+2020-03-21 16:56:27.001 [restartedMain] INFO  com.zaxxer.hikari.pool.PoolBase - ZTWEB_HIKARI - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2020-03-21 16:56:27.044 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - ZTWEB_HIKARI - Start completed.
+2020-03-21 16:56:27.096 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - LCYW_HIKARI - Starting...
+2020-03-21 16:56:27.137 [restartedMain] INFO  com.zaxxer.hikari.pool.PoolBase - LCYW_HIKARI - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2020-03-21 16:56:27.139 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - LCYW_HIKARI - Start completed.
+2020-03-21 16:56:27.603 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@251d399f: startup date [Sat Mar 21 16:56:21 CST 2020]; root of context hierarchy
+2020-03-21 16:56:27.681 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-21 16:56:27.681 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-21 16:56:27.733 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-21 16:56:28.079 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-21 16:56:28.252 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2020-03-21 16:56:28.253 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'secondaryDataSource' has been autodetected for JMX exposure
+2020-03-21 16:56:28.254 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'primaryDataSource' has been autodetected for JMX exposure
+2020-03-21 16:56:28.264 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'primaryDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=primaryDataSource,type=HikariDataSource]
+2020-03-21 16:56:28.265 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'secondaryDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=secondaryDataSource,type=HikariDataSource]
+2020-03-21 16:56:28.268 [restartedMain] INFO  o.s.c.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2020-03-21 16:56:28.269 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-21 16:56:28.287 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-21 16:56:28.304 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-21 16:56:29.090 [restartedMain] INFO  o.s.b.c.e.u.UndertowEmbeddedServletContainer - Undertow started on port(s) 9999 (http)
+2020-03-21 16:56:29.095 [restartedMain] INFO  com.study.StudydemoApplication - Started StudydemoApplication in 8.688 seconds (JVM running for 9.947)
+2020-03-21 17:10:51.645 [restartedMain] INFO  com.study.StudydemoApplication - Starting StudydemoApplication on DESKTOP-4QN18K6 with PID 25884 (E:\UserProject\studydemo\target\classes started by 12073 in E:\UserProject\studydemo)
+2020-03-21 17:10:51.659 [restartedMain] INFO  com.study.StudydemoApplication - No active profile set, falling back to default profiles: default
+2020-03-21 17:10:51.822 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@251d399f: startup date [Sat Mar 21 17:10:51 CST 2020]; root of context hierarchy
+2020-03-21 17:10:51.834 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2020-03-21 17:10:54.072 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.study.mapper.administration]' package. Please check your configuration.
+2020-03-21 17:10:54.073 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.study.mapper.business]' package. Please check your configuration.
+2020-03-21 17:10:54.282 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.study]' package. Please check your configuration.
+2020-03-21 17:10:54.908 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$48ceb934] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-21 17:10:56.756 [restartedMain] INFO  org.xnio - XNIO version 3.3.8.Final
+2020-03-21 17:10:56.791 [restartedMain] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2020-03-21 17:10:57.451 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2020-03-21 17:10:57.451 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-03-21 17:10:57.480 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2020-03-21 17:10:57.481 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5659 ms
+2020-03-21 17:10:57.685 [restartedMain] INFO  o.s.b.w.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2020-03-21 17:10:57.691 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-21 17:10:57.692 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-21 17:10:57.692 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-21 17:10:57.693 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-21 17:10:58.572 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test/hello],methods=[GET]}" onto private java.lang.String com.study.controller.TestController.hello()
+2020-03-21 17:10:58.577 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2020-03-21 17:10:58.582 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-03-21 17:10:58.584 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-03-21 17:10:58.585 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-03-21 17:10:58.589 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-03-21 17:10:58.589 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-03-21 17:10:58.867 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - ZTWEB_HIKARI - Starting...
+2020-03-21 17:10:59.031 [restartedMain] INFO  com.zaxxer.hikari.pool.PoolBase - ZTWEB_HIKARI - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2020-03-21 17:10:59.073 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - ZTWEB_HIKARI - Start completed.
+2020-03-21 17:10:59.145 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - LCYW_HIKARI - Starting...
+2020-03-21 17:10:59.194 [restartedMain] INFO  com.zaxxer.hikari.pool.PoolBase - LCYW_HIKARI - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2020-03-21 17:10:59.197 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - LCYW_HIKARI - Start completed.
+2020-03-21 17:10:59.727 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@251d399f: startup date [Sat Mar 21 17:10:51 CST 2020]; root of context hierarchy
+2020-03-21 17:10:59.831 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-21 17:10:59.831 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-21 17:10:59.891 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-21 17:11:00.443 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-21 17:11:00.613 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2020-03-21 17:11:00.615 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'secondaryDataSource' has been autodetected for JMX exposure
+2020-03-21 17:11:00.615 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'primaryDataSource' has been autodetected for JMX exposure
+2020-03-21 17:11:00.625 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'primaryDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=primaryDataSource,type=HikariDataSource]
+2020-03-21 17:11:00.627 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'secondaryDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=secondaryDataSource,type=HikariDataSource]
+2020-03-21 17:11:00.631 [restartedMain] INFO  o.s.c.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2020-03-21 17:11:00.631 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-21 17:11:00.820 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-21 17:11:00.840 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-21 17:11:01.782 [restartedMain] INFO  o.s.b.c.e.u.UndertowEmbeddedServletContainer - Undertow started on port(s) 9999 (http)
+2020-03-21 17:11:01.790 [restartedMain] INFO  com.study.StudydemoApplication - Started StudydemoApplication in 10.699 seconds (JVM running for 11.924)
+2020-03-21 17:11:09.845 [XNIO-3 task-1] INFO  io.undertow.servlet - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-03-21 17:11:09.846 [XNIO-3 task-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2020-03-21 17:11:09.872 [XNIO-3 task-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+2020-03-21 17:13:51.826 [restartedMain] INFO  com.study.StudydemoApplication - Starting StudydemoApplication on DESKTOP-4QN18K6 with PID 23852 (E:\UserProject\studydemo\target\classes started by 12073 in E:\UserProject\studydemo)
+2020-03-21 17:13:51.831 [restartedMain] INFO  com.study.StudydemoApplication - No active profile set, falling back to default profiles: default
+2020-03-21 17:13:51.968 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@44fb96b: startup date [Sat Mar 21 17:13:51 CST 2020]; root of context hierarchy
+2020-03-21 17:13:51.990 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2020-03-21 17:13:53.943 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.study.mapper.administration]' package. Please check your configuration.
+2020-03-21 17:13:53.944 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.study.mapper.business]' package. Please check your configuration.
+2020-03-21 17:13:54.110 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.study]' package. Please check your configuration.
+2020-03-21 17:13:54.640 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fcf96b0d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-21 17:13:55.745 [restartedMain] INFO  org.xnio - XNIO version 3.3.8.Final
+2020-03-21 17:13:55.763 [restartedMain] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2020-03-21 17:13:56.314 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2020-03-21 17:13:56.314 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-03-21 17:13:56.341 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2020-03-21 17:13:56.341 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4374 ms
+2020-03-21 17:13:56.539 [restartedMain] INFO  o.s.b.w.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2020-03-21 17:13:56.546 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-21 17:13:56.548 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-21 17:13:56.548 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-21 17:13:56.548 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-21 17:13:57.369 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test/hello],methods=[GET]}" onto private java.lang.String com.study.controller.TestController.hello()
+2020-03-21 17:13:57.372 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2020-03-21 17:13:57.378 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-03-21 17:13:57.380 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-03-21 17:13:57.381 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-03-21 17:13:57.385 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-03-21 17:13:57.386 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-03-21 17:13:57.710 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - ZTWEB_HIKARI - Starting...
+2020-03-21 17:13:57.897 [restartedMain] INFO  com.zaxxer.hikari.pool.PoolBase - ZTWEB_HIKARI - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2020-03-21 17:13:57.948 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - ZTWEB_HIKARI - Start completed.
+2020-03-21 17:13:58.008 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - LCYW_HIKARI - Starting...
+2020-03-21 17:13:58.049 [restartedMain] INFO  com.zaxxer.hikari.pool.PoolBase - LCYW_HIKARI - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2020-03-21 17:13:58.052 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - LCYW_HIKARI - Start completed.
+2020-03-21 17:13:58.624 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@44fb96b: startup date [Sat Mar 21 17:13:51 CST 2020]; root of context hierarchy
+2020-03-21 17:13:58.719 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-21 17:13:58.719 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-21 17:13:58.782 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-21 17:13:59.449 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-21 17:13:59.630 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2020-03-21 17:13:59.631 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'secondaryDataSource' has been autodetected for JMX exposure
+2020-03-21 17:13:59.631 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'primaryDataSource' has been autodetected for JMX exposure
+2020-03-21 17:13:59.639 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'primaryDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=primaryDataSource,type=HikariDataSource]
+2020-03-21 17:13:59.640 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'secondaryDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=secondaryDataSource,type=HikariDataSource]
+2020-03-21 17:13:59.753 [restartedMain] INFO  o.s.c.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2020-03-21 17:13:59.753 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-21 17:13:59.772 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-21 17:13:59.790 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-21 17:14:00.617 [restartedMain] INFO  o.s.b.c.e.u.UndertowEmbeddedServletContainer - Undertow started on port(s) 9999 (http)
+2020-03-21 17:14:00.624 [restartedMain] INFO  com.study.StudydemoApplication - Started StudydemoApplication in 9.319 seconds (JVM running for 10.618)
+2020-03-21 17:14:08.919 [XNIO-3 task-1] INFO  io.undertow.servlet - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-03-21 17:14:08.919 [XNIO-3 task-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2020-03-21 17:14:08.944 [XNIO-3 task-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2020-03-21 17:21:09.882 [restartedMain] INFO  com.study.StudydemoApplication - Starting StudydemoApplication on DESKTOP-4QN18K6 with PID 12972 (E:\UserProject\studydemo\target\classes started by 12073 in E:\UserProject\studydemo)
+2020-03-21 17:21:09.896 [restartedMain] INFO  com.study.StudydemoApplication - No active profile set, falling back to default profiles: default
+2020-03-21 17:21:10.085 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@44fb96b: startup date [Sat Mar 21 17:21:10 CST 2020]; root of context hierarchy
+2020-03-21 17:21:10.125 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2020-03-21 17:21:12.132 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.study.mapper.administration]' package. Please check your configuration.
+2020-03-21 17:21:12.133 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.study.mapper.business]' package. Please check your configuration.
+2020-03-21 17:21:12.318 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.study]' package. Please check your configuration.
+2020-03-21 17:21:12.923 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e7b0ab02] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-21 17:21:14.138 [restartedMain] INFO  org.xnio - XNIO version 3.3.8.Final
+2020-03-21 17:21:14.159 [restartedMain] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2020-03-21 17:21:14.869 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2020-03-21 17:21:14.870 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-03-21 17:21:14.902 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2020-03-21 17:21:14.903 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4818 ms
+2020-03-21 17:21:15.100 [restartedMain] INFO  o.s.b.w.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2020-03-21 17:21:15.106 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-21 17:21:15.108 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-21 17:21:15.108 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-21 17:21:15.108 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-21 17:21:15.942 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test/user],methods=[GET]}" onto public java.lang.String com.study.controller.TestController.testGet(java.lang.String,java.lang.String)
+2020-03-21 17:21:15.943 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test/user],methods=[POST]}" onto public com.study.entity.User com.study.controller.TestController.testPost(com.study.entity.User)
+2020-03-21 17:21:15.944 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test/hello],methods=[GET]}" onto private java.lang.String com.study.controller.TestController.hello()
+2020-03-21 17:21:15.945 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2020-03-21 17:21:15.947 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-03-21 17:21:15.948 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-03-21 17:21:15.949 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-03-21 17:21:15.952 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-03-21 17:21:15.952 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-03-21 17:21:16.232 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - ZTWEB_HIKARI - Starting...
+2020-03-21 17:21:16.398 [restartedMain] INFO  com.zaxxer.hikari.pool.PoolBase - ZTWEB_HIKARI - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2020-03-21 17:21:16.443 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - ZTWEB_HIKARI - Start completed.
+2020-03-21 17:21:16.510 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - LCYW_HIKARI - Starting...
+2020-03-21 17:21:16.552 [restartedMain] INFO  com.zaxxer.hikari.pool.PoolBase - LCYW_HIKARI - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2020-03-21 17:21:16.555 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - LCYW_HIKARI - Start completed.
+2020-03-21 17:21:17.094 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@44fb96b: startup date [Sat Mar 21 17:21:10 CST 2020]; root of context hierarchy
+2020-03-21 17:21:17.201 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-21 17:21:17.201 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-21 17:21:17.262 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-21 17:21:17.777 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-21 17:21:18.156 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2020-03-21 17:21:18.158 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'secondaryDataSource' has been autodetected for JMX exposure
+2020-03-21 17:21:18.158 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'primaryDataSource' has been autodetected for JMX exposure
+2020-03-21 17:21:18.166 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'primaryDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=primaryDataSource,type=HikariDataSource]
+2020-03-21 17:21:18.168 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'secondaryDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=secondaryDataSource,type=HikariDataSource]
+2020-03-21 17:21:18.174 [restartedMain] INFO  o.s.c.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2020-03-21 17:21:18.174 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-21 17:21:18.201 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-21 17:21:18.220 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-21 17:21:19.114 [restartedMain] INFO  o.s.b.c.e.u.UndertowEmbeddedServletContainer - Undertow started on port(s) 9999 (http)
+2020-03-21 17:21:19.121 [restartedMain] INFO  com.study.StudydemoApplication - Started StudydemoApplication in 9.841 seconds (JVM running for 10.935)
+2020-03-21 17:21:37.864 [XNIO-3 task-1] INFO  io.undertow.servlet - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-03-21 17:21:37.865 [XNIO-3 task-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2020-03-21 17:21:37.890 [XNIO-3 task-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2020-03-21 17:21:40.740 [XNIO-3 task-1] INFO  com.study.aop.WebLogAspect - ========================================== Start ==========================================
+2020-03-21 17:21:40.740 [XNIO-3 task-1] INFO  com.study.aop.WebLogAspect - URL            : http://localhost:9999/test/user
+2020-03-21 17:21:40.740 [XNIO-3 task-1] INFO  com.study.aop.WebLogAspect - HTTP Method    : GET
+2020-03-21 17:21:40.741 [XNIO-3 task-1] INFO  com.study.aop.WebLogAspect - Class Method   : com.study.controller.TestController.testGet
+2020-03-21 17:21:40.741 [XNIO-3 task-1] INFO  com.study.aop.WebLogAspect - IP             : 0:0:0:0:0:0:0:1
+2020-03-21 17:21:40.746 [XNIO-3 task-1] INFO  com.study.aop.WebLogAspect - Request Args   : ["张三","123456"]
+2020-03-21 17:21:40.749 [XNIO-3 task-1] INFO  com.study.controller.TestController - testGet ...
+2020-03-21 17:21:40.750 [XNIO-3 task-1] INFO  com.study.aop.WebLogAspect - Response Args  : "success"
+2020-03-21 17:21:40.750 [XNIO-3 task-1] INFO  com.study.aop.WebLogAspect - Time-Consuming : 2833 ms
+2020-03-21 17:21:40.750 [XNIO-3 task-1] INFO  com.study.aop.WebLogAspect - =========================================== End ===========================================
+2020-03-21 17:21:40.750 [XNIO-3 task-1] INFO  com.study.aop.WebLogAspect - 
+2020-03-21 17:23:04.553 [restartedMain] INFO  com.study.StudydemoApplication - Starting StudydemoApplication on DESKTOP-4QN18K6 with PID 37764 (E:\UserProject\studydemo\target\classes started by 12073 in E:\UserProject\studydemo)
+2020-03-21 17:23:04.563 [restartedMain] INFO  com.study.StudydemoApplication - No active profile set, falling back to default profiles: default
+2020-03-21 17:23:04.759 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@44fb96b: startup date [Sat Mar 21 17:23:04 CST 2020]; root of context hierarchy
+2020-03-21 17:23:04.787 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2020-03-21 17:23:07.965 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.study.mapper.administration]' package. Please check your configuration.
+2020-03-21 17:23:07.966 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.study.mapper.business]' package. Please check your configuration.
+2020-03-21 17:23:08.150 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.study]' package. Please check your configuration.
+2020-03-21 17:23:08.756 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8caada6f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-21 17:23:10.064 [restartedMain] INFO  org.xnio - XNIO version 3.3.8.Final
+2020-03-21 17:23:10.084 [restartedMain] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2020-03-21 17:23:10.645 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2020-03-21 17:23:10.645 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-03-21 17:23:10.675 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2020-03-21 17:23:10.675 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5916 ms
+2020-03-21 17:23:10.870 [restartedMain] INFO  o.s.b.w.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2020-03-21 17:23:10.876 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-21 17:23:10.878 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-21 17:23:10.878 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-21 17:23:10.878 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-21 17:23:11.634 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test/user],methods=[POST]}" onto public com.study.entity.User com.study.controller.TestController.testPost(com.study.entity.User)
+2020-03-21 17:23:11.635 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test/user],methods=[GET]}" onto public java.lang.String com.study.controller.TestController.testGet(java.lang.String,java.lang.String)
+2020-03-21 17:23:11.635 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test/hello],methods=[GET]}" onto private java.lang.String com.study.controller.TestController.hello()
+2020-03-21 17:23:11.636 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2020-03-21 17:23:11.639 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-03-21 17:23:11.640 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-03-21 17:23:11.641 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-03-21 17:23:11.643 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-03-21 17:23:11.644 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-03-21 17:23:11.917 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - ZTWEB_HIKARI - Starting...
+2020-03-21 17:23:12.093 [restartedMain] INFO  com.zaxxer.hikari.pool.PoolBase - ZTWEB_HIKARI - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2020-03-21 17:23:12.138 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - ZTWEB_HIKARI - Start completed.
+2020-03-21 17:23:12.214 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - LCYW_HIKARI - Starting...
+2020-03-21 17:23:12.281 [restartedMain] INFO  com.zaxxer.hikari.pool.PoolBase - LCYW_HIKARI - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2020-03-21 17:23:12.289 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - LCYW_HIKARI - Start completed.
+2020-03-21 17:23:12.828 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@44fb96b: startup date [Sat Mar 21 17:23:04 CST 2020]; root of context hierarchy
+2020-03-21 17:23:12.931 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-21 17:23:12.931 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-21 17:23:12.998 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-21 17:23:13.524 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-21 17:23:13.843 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2020-03-21 17:23:13.845 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'secondaryDataSource' has been autodetected for JMX exposure
+2020-03-21 17:23:13.845 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'primaryDataSource' has been autodetected for JMX exposure
+2020-03-21 17:23:13.853 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'primaryDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=primaryDataSource,type=HikariDataSource]
+2020-03-21 17:23:13.854 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'secondaryDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=secondaryDataSource,type=HikariDataSource]
+2020-03-21 17:23:13.858 [restartedMain] INFO  o.s.c.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2020-03-21 17:23:13.858 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-21 17:23:13.878 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-21 17:23:13.895 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-21 17:23:14.706 [restartedMain] INFO  o.s.b.c.e.u.UndertowEmbeddedServletContainer - Undertow started on port(s) 9999 (http)
+2020-03-21 17:23:14.712 [restartedMain] INFO  com.study.StudydemoApplication - Started StudydemoApplication in 10.694 seconds (JVM running for 12.024)
+2020-03-21 17:23:22.707 [XNIO-3 task-1] INFO  io.undertow.servlet - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-03-21 17:23:22.708 [XNIO-3 task-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2020-03-21 17:23:22.732 [XNIO-3 task-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2020-03-21 17:23:24.629 [XNIO-3 task-1] INFO  com.study.aop.WebLogAspect - ========================================== Start ==========================================
+2020-03-21 17:23:24.630 [XNIO-3 task-1] INFO  com.study.aop.WebLogAspect - URL            : http://localhost:9999/test/user
+2020-03-21 17:23:24.630 [XNIO-3 task-1] INFO  com.study.aop.WebLogAspect - HTTP Method    : GET
+2020-03-21 17:23:24.631 [XNIO-3 task-1] INFO  com.study.aop.WebLogAspect - Class Method   : com.study.controller.TestController.testGet
+2020-03-21 17:23:24.631 [XNIO-3 task-1] INFO  com.study.aop.WebLogAspect - IP             : 0:0:0:0:0:0:0:1
+2020-03-21 17:23:24.635 [XNIO-3 task-1] INFO  com.study.aop.WebLogAspect - Request Args   : ["张三","123456"]
+2020-03-21 17:23:24.638 [XNIO-3 task-1] INFO  com.study.controller.TestController - testGet ...
+2020-03-21 17:23:24.638 [XNIO-3 task-1] INFO  com.study.aop.WebLogAspect - Response Args  : "success"
+2020-03-21 17:23:24.639 [XNIO-3 task-1] INFO  com.study.aop.WebLogAspect - Time-Consuming : 1879 ms
+2020-03-21 17:23:24.639 [XNIO-3 task-1] INFO  com.study.aop.WebLogAspect - =========================================== End ===========================================
+2020-03-21 17:23:24.639 [XNIO-3 task-1] INFO  com.study.aop.WebLogAspect - 
+2020-03-21 17:25:11.706 [restartedMain] INFO  com.study.StudydemoApplication - Starting StudydemoApplication on DESKTOP-4QN18K6 with PID 21352 (E:\UserProject\studydemo\target\classes started by 12073 in E:\UserProject\studydemo)
+2020-03-21 17:25:11.735 [restartedMain] INFO  com.study.StudydemoApplication - No active profile set, falling back to default profiles: default
+2020-03-21 17:25:11.977 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@44fb96b: startup date [Sat Mar 21 17:25:11 CST 2020]; root of context hierarchy
+2020-03-21 17:25:11.986 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2020-03-21 17:25:16.400 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.study.mapper.administration]' package. Please check your configuration.
+2020-03-21 17:25:16.402 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.study.mapper.business]' package. Please check your configuration.
+2020-03-21 17:25:16.690 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.study]' package. Please check your configuration.
+2020-03-21 17:25:17.453 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$452bf657] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-21 17:25:18.857 [restartedMain] INFO  org.xnio - XNIO version 3.3.8.Final
+2020-03-21 17:25:18.878 [restartedMain] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2020-03-21 17:25:19.505 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2020-03-21 17:25:19.505 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-03-21 17:25:19.534 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2020-03-21 17:25:19.534 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7558 ms
+2020-03-21 17:25:19.726 [restartedMain] INFO  o.s.b.w.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2020-03-21 17:25:19.733 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-21 17:25:19.735 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-21 17:25:19.735 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-21 17:25:19.735 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-21 17:25:20.658 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test/hello],methods=[GET]}" onto private java.lang.String com.study.controller.TestController.hello()
+2020-03-21 17:25:20.662 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test/user],methods=[GET]}" onto private java.lang.String com.study.controller.TestController.testGet(java.lang.String,java.lang.String)
+2020-03-21 17:25:20.662 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test/user],methods=[POST]}" onto public com.study.entity.User com.study.controller.TestController.testPost(com.study.entity.User)
+2020-03-21 17:25:20.664 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2020-03-21 17:25:20.667 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-03-21 17:25:20.669 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-03-21 17:25:20.670 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-03-21 17:25:20.674 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-03-21 17:25:20.675 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-03-21 17:25:21.019 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - ZTWEB_HIKARI - Starting...
+2020-03-21 17:25:21.262 [restartedMain] INFO  com.zaxxer.hikari.pool.PoolBase - ZTWEB_HIKARI - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2020-03-21 17:25:21.316 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - ZTWEB_HIKARI - Start completed.
+2020-03-21 17:25:21.385 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - LCYW_HIKARI - Starting...
+2020-03-21 17:25:21.469 [restartedMain] INFO  com.zaxxer.hikari.pool.PoolBase - LCYW_HIKARI - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2020-03-21 17:25:21.472 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - LCYW_HIKARI - Start completed.
+2020-03-21 17:25:22.515 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@44fb96b: startup date [Sat Mar 21 17:25:11 CST 2020]; root of context hierarchy
+2020-03-21 17:25:22.636 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-21 17:25:22.637 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-21 17:25:22.703 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-21 17:25:23.453 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-21 17:25:23.860 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2020-03-21 17:25:23.864 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'secondaryDataSource' has been autodetected for JMX exposure
+2020-03-21 17:25:23.864 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'primaryDataSource' has been autodetected for JMX exposure
+2020-03-21 17:25:23.873 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'primaryDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=primaryDataSource,type=HikariDataSource]
+2020-03-21 17:25:23.876 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'secondaryDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=secondaryDataSource,type=HikariDataSource]
+2020-03-21 17:25:23.880 [restartedMain] INFO  o.s.c.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2020-03-21 17:25:23.880 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-21 17:25:23.906 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-21 17:25:23.927 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-21 17:25:24.897 [restartedMain] INFO  o.s.b.c.e.u.UndertowEmbeddedServletContainer - Undertow started on port(s) 9999 (http)
+2020-03-21 17:25:24.902 [restartedMain] INFO  com.study.StudydemoApplication - Started StudydemoApplication in 13.942 seconds (JVM running for 15.498)
+2020-03-21 17:25:30.989 [XNIO-3 task-1] INFO  io.undertow.servlet - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-03-21 17:25:30.989 [XNIO-3 task-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2020-03-21 17:25:31.016 [XNIO-3 task-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+2020-03-21 17:25:40.119 [XNIO-3 task-3] INFO  com.study.controller.TestController - testGet ...
+2020-03-21 17:25:41.101 [XNIO-3 task-5] INFO  com.study.controller.TestController - testGet ...
+2020-03-21 17:26:02.073 [Thread-6] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@44fb96b: startup date [Sat Mar 21 17:25:11 CST 2020]; root of context hierarchy
+2020-03-21 17:26:02.076 [Thread-6] INFO  o.s.c.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2020-03-21 17:26:02.078 [Thread-6] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2020-03-21 17:26:02.079 [Thread-6] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2020-03-21 17:26:02.080 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - ZTWEB_HIKARI - Shutdown initiated...
+2020-03-21 17:26:02.200 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - ZTWEB_HIKARI - Shutdown completed.
+2020-03-21 17:26:02.202 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - LCYW_HIKARI - Shutdown initiated...
+2020-03-21 17:26:02.262 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource - LCYW_HIKARI - Shutdown completed.
+2020-03-21 17:26:02.266 [Thread-6] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-03-21 17:26:02.635 [restartedMain] INFO  com.study.StudydemoApplication - Starting StudydemoApplication on DESKTOP-4QN18K6 with PID 21352 (E:\UserProject\studydemo\target\classes started by 12073 in E:\UserProject\studydemo)
+2020-03-21 17:26:02.636 [restartedMain] INFO  com.study.StudydemoApplication - No active profile set, falling back to default profiles: default
+2020-03-21 17:26:02.641 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2c488d0a: startup date [Sat Mar 21 17:26:02 CST 2020]; root of context hierarchy
+2020-03-21 17:26:03.833 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.study.mapper.administration]' package. Please check your configuration.
+2020-03-21 17:26:03.836 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.study.mapper.business]' package. Please check your configuration.
+2020-03-21 17:26:03.972 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.study]' package. Please check your configuration.
+2020-03-21 17:26:04.124 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$452bf657] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-21 17:26:04.560 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2020-03-21 17:26:04.560 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-03-21 17:26:04.562 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2020-03-21 17:26:04.562 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1921 ms
+2020-03-21 17:26:04.695 [restartedMain] INFO  o.s.b.w.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2020-03-21 17:26:04.695 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-21 17:26:04.695 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-21 17:26:04.696 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-21 17:26:04.696 [restartedMain] INFO  o.s.b.w.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-21 17:26:05.352 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test/hello],methods=[GET]}" onto public java.lang.String com.study.controller.TestController.hello()
+2020-03-21 17:26:05.353 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test/user],methods=[GET]}" onto public java.lang.String com.study.controller.TestController.testGet(java.lang.String,java.lang.String)
+2020-03-21 17:26:05.354 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test/user],methods=[POST]}" onto public com.study.entity.User com.study.controller.TestController.testPost(com.study.entity.User)
+2020-03-21 17:26:05.355 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2020-03-21 17:26:05.358 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2020-03-21 17:26:05.359 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2020-03-21 17:26:05.360 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2020-03-21 17:26:05.365 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-03-21 17:26:05.366 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-03-21 17:26:05.538 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - ZTWEB_HIKARI - Starting...
+2020-03-21 17:26:05.590 [restartedMain] INFO  com.zaxxer.hikari.pool.PoolBase - ZTWEB_HIKARI - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2020-03-21 17:26:05.593 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - ZTWEB_HIKARI - Start completed.
+2020-03-21 17:26:05.639 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - LCYW_HIKARI - Starting...
+2020-03-21 17:26:05.684 [restartedMain] INFO  com.zaxxer.hikari.pool.PoolBase - LCYW_HIKARI - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2020-03-21 17:26:05.686 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - LCYW_HIKARI - Start completed.
+2020-03-21 17:26:06.024 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2c488d0a: startup date [Sat Mar 21 17:26:02 CST 2020]; root of context hierarchy
+2020-03-21 17:26:06.069 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-21 17:26:06.070 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-21 17:26:06.113 [restartedMain] INFO  o.s.w.s.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-21 17:26:06.414 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-21 17:26:06.615 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2020-03-21 17:26:06.616 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'secondaryDataSource' has been autodetected for JMX exposure
+2020-03-21 17:26:06.616 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'primaryDataSource' has been autodetected for JMX exposure
+2020-03-21 17:26:06.622 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'primaryDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=primaryDataSource,type=HikariDataSource]
+2020-03-21 17:26:06.624 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'secondaryDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=secondaryDataSource,type=HikariDataSource]
+2020-03-21 17:26:06.625 [restartedMain] INFO  o.s.c.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2020-03-21 17:26:06.625 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-21 17:26:06.626 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-21 17:26:06.631 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-21 17:26:07.246 [restartedMain] INFO  o.s.b.c.e.u.UndertowEmbeddedServletContainer - Undertow started on port(s) 9999 (http)
+2020-03-21 17:26:07.249 [restartedMain] INFO  com.study.StudydemoApplication - Started StudydemoApplication in 4.729 seconds (JVM running for 57.844)
+2020-03-21 17:26:12.666 [XNIO-5 task-1] INFO  io.undertow.servlet - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-03-21 17:26:12.668 [XNIO-5 task-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2020-03-21 17:26:12.676 [XNIO-5 task-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 8 ms
+2020-03-21 17:26:12.682 [XNIO-5 task-1] INFO  com.study.aop.WebLogAspect - ========================================== Start ==========================================
+2020-03-21 17:26:12.682 [XNIO-5 task-1] INFO  com.study.aop.WebLogAspect - URL            : http://localhost:9999/test/user
+2020-03-21 17:26:12.682 [XNIO-5 task-1] INFO  com.study.aop.WebLogAspect - HTTP Method    : GET
+2020-03-21 17:26:12.684 [XNIO-5 task-1] INFO  com.study.aop.WebLogAspect - Class Method   : com.study.controller.TestController.testGet
+2020-03-21 17:26:12.684 [XNIO-5 task-1] INFO  com.study.aop.WebLogAspect - IP             : 0:0:0:0:0:0:0:1
+2020-03-21 17:26:12.687 [XNIO-5 task-1] INFO  com.study.aop.WebLogAspect - Request Args   : ["张三","123456"]
+2020-03-21 17:26:12.690 [XNIO-5 task-1] INFO  com.study.controller.TestController - testGet ...
+2020-03-21 17:26:12.690 [XNIO-5 task-1] INFO  com.study.aop.WebLogAspect - Response Args  : "success"
+2020-03-21 17:26:12.690 [XNIO-5 task-1] INFO  com.study.aop.WebLogAspect - Time-Consuming : 9 ms
+2020-03-21 17:26:12.690 [XNIO-5 task-1] INFO  com.study.aop.WebLogAspect - =========================================== End ===========================================
+2020-03-21 17:26:12.690 [XNIO-5 task-1] INFO  com.study.aop.WebLogAspect - 
+2020-03-21 17:26:20.790 [XNIO-5 task-3] INFO  com.study.aop.WebLogAspect - ========================================== Start ==========================================
+2020-03-21 17:26:20.791 [XNIO-5 task-3] INFO  com.study.aop.WebLogAspect - URL            : http://localhost:9999/test/hello
+2020-03-21 17:26:20.791 [XNIO-5 task-3] INFO  com.study.aop.WebLogAspect - HTTP Method    : GET
+2020-03-21 17:26:20.791 [XNIO-5 task-3] INFO  com.study.aop.WebLogAspect - Class Method   : com.study.controller.TestController.hello
+2020-03-21 17:26:20.791 [XNIO-5 task-3] INFO  com.study.aop.WebLogAspect - IP             : 0:0:0:0:0:0:0:1
+2020-03-21 17:26:20.791 [XNIO-5 task-3] INFO  com.study.aop.WebLogAspect - Request Args   : []
+2020-03-21 17:26:20.791 [XNIO-5 task-3] INFO  com.study.aop.WebLogAspect - Response Args  : "这是第一个程序,Hello,Kitty。。555554445577！"
+2020-03-21 17:26:20.791 [XNIO-5 task-3] INFO  com.study.aop.WebLogAspect - Time-Consuming : 1 ms
+2020-03-21 17:26:20.791 [XNIO-5 task-3] INFO  com.study.aop.WebLogAspect - =========================================== End ===========================================
+2020-03-21 17:26:20.791 [XNIO-5 task-3] INFO  com.study.aop.WebLogAspect - 
+2020-03-21 20:31:24.430 [ZTWEB_HIKARI housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - ZTWEB_HIKARI - Thread starvation or clock leap detected (housekeeper delta=2h25m18s632ms585µs600ns).
+2020-03-21 20:31:24.513 [LCYW_HIKARI housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - LCYW_HIKARI - Thread starvation or clock leap detected (housekeeper delta=2h25m18s632ms484µs700ns).
+2020-03-21 23:46:45.008 [ZTWEB_HIKARI housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - ZTWEB_HIKARI - Thread starvation or clock leap detected (housekeeper delta=2h22m20s420ms463µs).
+2020-03-21 23:46:45.088 [LCYW_HIKARI housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - LCYW_HIKARI - Thread starvation or clock leap detected (housekeeper delta=2h22m20s420ms356µs400ns).
